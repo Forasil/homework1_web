@@ -28,4 +28,9 @@ REST API для блога реализован на Spring Boot.
 2. Запустить класс `BankSpringApplication`.
 3. Тестировать через Postman на адресе http://localhost:8080
 
+## Тестирование
 
+![Проверка POST на порт http://localhost:8080/users](tests/test1.png)
+![Проверка GET на порте http://localhost:8080/users](tests/test2.png)
+![Проверка POST на порт http://localhost:8080/posts](tests/test3.png)
+![Проверка POST при отправке с некорректными данными на порт http://localhost:8080/users](tests/test4.png)
