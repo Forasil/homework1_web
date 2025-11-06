@@ -30,7 +30,14 @@ REST API для блога реализован на Spring Boot.
 
 ## Тестирование
 
+Проверка POST на порт http://localhost:8080/users]
 ![Проверка POST на порт http://localhost:8080/users](tests/test1.png)
+
+Проверка GET на порте http://localhost:8080/users
 ![Проверка GET на порте http://localhost:8080/users](tests/test2.png)
+
+Проверка POST на порт http://localhost:8080/posts
 ![Проверка POST на порт http://localhost:8080/posts](tests/test3.png)
+
+Проверка POST при отправке с некорректными данными на порт http://localhost:8080/users
 ![Проверка POST при отправке с некорректными данными на порт http://localhost:8080/users](tests/test4.png)
